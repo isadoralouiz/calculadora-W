@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+      <link rel="stylesheet" href="calculadora.css">
+
+  </head>
+  <body>
+    <h1 class="calculadora" >Calculadora</h1>
+
+    <p>
+      <input type="button" id="0" value="0" /><br />
+      <input type="button" id="1" value="1" />
+      <input type="button" id="2" value="2" />
+      <input type="button" id="3" value="3" /><br />
+      <input type="button" id="4" value="4" />
+      <input type="button" id="5" value="5" />
+      <input type="button" id="6" value="6" /><br />
+      <input type="button" id="7" value="7" />
+      <input type="button" id="8" value="8" />
+      <input type="button" id="9" value="9" /><br />
+    </p>
+
+    <p class="linha">
+      <input type="button" id="soma" value="+" />
+      <input type="button" id="subtrair" value="-" />
+      <input type="button" id="multiplicar" value="*" />
+      <input type="button" id="dividir" value="/" />
+    </p>
+      
+
+      <p class="linha">
+      <input type="button" id="resultado" value="=" />
+      <input type="button" id="parentese1" value="(" />
+      <input type="button" id="parentese2" value=")" />
+      <input type="button" id="limpar" value="C" /></p>
+      
+
+
+    <div class="resultado">
+  <div class="display">
+    <h2 id="valor1"></h2>
+    <h2 id="sinal"></h2>
+    <h2 id="valor2"></h2>
+  </div>
+</div>
+
+    <script src="calculadora.js"></script>
+  </body>
+</html>
